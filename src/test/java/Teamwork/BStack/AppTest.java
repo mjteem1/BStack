@@ -1,26 +1,21 @@
 package Teamwork.BStack;
 
-import java.io.File;
-import java.io.IOException;
-import java.net.URL;
-
+import Teamwork.BStack.WebsitePage;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import Teamwork.BStack.WebsitePage;
-import Teamwork.cookie.LetMeRemember;
+import java.io.File;
+import java.io.IOException;
+import java.net.URL;
 
 public class AppTest {
 

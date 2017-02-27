@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" name="Suite" parallel="tests">
+<suite thread-count="3" name="Suite" parallel="tests">
 	<test name="FireFoxTest">
 		<parameter name="browser" value="firefox" />
 		<parameter name="os_version" value="10" />
@@ -13,6 +13,14 @@
 		<parameter name="browser" value="chrome" />
 		<parameter name="os_version" value="10" />
 		<parameter name="os" value="WINDOWS" />
+		<classes>
+			<class name="Teamwork.BStack.AppTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="SafariTest">
+		<parameter name="browser" value="safari" />
+		<parameter name="os_version" value="Snow Leopard" />
+		<parameter name="os" value="OS X" />
 		<classes>
 			<class name="Teamwork.BStack.AppTest" />
 		</classes>
