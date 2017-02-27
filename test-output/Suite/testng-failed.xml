@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="os" value="WINDOWS"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="os_version" value="10"/>
+  <test name="FireFoxTest">
+    <parameter name="os" value="WINDOWS"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="os_version" value="10"/>
+    <classes>
+      <class name="Teamwork.BStack.AppTest"/>
+    </classes>
+  </test> <!-- FireFoxTest -->
+  <test name="ChromeTest">
+    <parameter name="os" value="WINDOWS"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="os_version" value="10"/>
+    <classes>
+      <class name="Teamwork.BStack.AppTest"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+</suite> <!-- Failed suite [Suite] -->

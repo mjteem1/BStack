@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20278" started-at="2017-01-12T12:54:43Z" finished-at="2017-01-12T12:55:03Z">
+    <groups>
+    </groups>
+    <test name="FireFoxTest" duration-ms="19504" started-at="2017-01-12T12:54:43Z" finished-at="2017-01-12T12:55:02Z">
+      <class name="Teamwork.BStack.AppTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Teamwork.BStack.AppTest@3532ec19]" name="setUp" is-config="true" duration-ms="9183" started-at="2017-01-12T12:54:43Z" finished-at="2017-01-12T12:54:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSimple()[pri:0, instance:Teamwork.BStack.AppTest@3532ec19]" name="testSimple" duration-ms="4562" started-at="2017-01-12T12:54:52Z" finished-at="2017-01-12T12:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Teamwork.BStack.AppTest@3532ec19]" name="tearDown" is-config="true" duration-ms="5748" started-at="2017-01-12T12:54:57Z" finished-at="2017-01-12T12:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Teamwork.BStack.AppTest -->
+    </test> <!-- FireFoxTest -->
+    <test name="ChromeTest" duration-ms="20278" started-at="2017-01-12T12:54:43Z" finished-at="2017-01-12T12:55:03Z">
+      <class name="Teamwork.BStack.AppTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Teamwork.BStack.AppTest@42e26948]" name="setUp" is-config="true" duration-ms="7185" started-at="2017-01-12T12:54:43Z" finished-at="2017-01-12T12:54:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSimple()[pri:0, instance:Teamwork.BStack.AppTest@42e26948]" name="testSimple" duration-ms="7190" started-at="2017-01-12T12:54:50Z" finished-at="2017-01-12T12:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Teamwork.BStack.AppTest@42e26948]" name="tearDown" is-config="true" duration-ms="5892" started-at="2017-01-12T12:54:57Z" finished-at="2017-01-12T12:55:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Teamwork.BStack.AppTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
